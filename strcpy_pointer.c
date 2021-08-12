@@ -16,9 +16,8 @@ int main()
 	char str1[50],str2[50];
 	printf("enter str1");
 	gets(str1);
-	printf("enter str2");
-	gets(str2);
-	printf("%s",ustrcpy(str1,str2));
+	ustrcpy(str1,str2));
+	printf("str1=%s\n str2=%s",str1,str2);
 }
 
 
